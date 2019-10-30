@@ -1,16 +1,16 @@
-#Introdução e Conceitos Basicos
+# Introdução e Conceitos Basicos
 
    * Scripts são arquivos texto
    * Precisam de permissão de escrita e execução
    * Cabeçalho #!/bin/bash
 
-#Comandos Básicos
+# Comandos Básicos
 
    * echo
    * read
    * date
 
-#Definição e acesso a variáveis
+# Definição e acesso a variáveis
 
    * a=10
    * echo $a
