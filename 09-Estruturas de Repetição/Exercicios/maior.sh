@@ -1,9 +1,9 @@
 #!/bin/bash
 
 nomeMaior=""
-tamanho=0
+maior=0
 for x in $(ls); do
 	[ -f $x ] && read a b <<< "$( du -hbs $x )"
-	[ ${a} -ge ${tamanho} ] && nomeMaior=${b} tamanho=${a}
+	[ $a -ge $maior ] && nomeMaior=$b maior=$a
 done
-echo "O maior arquivo do diretorio atual é ${nomeMaior}, tamanho ${tamanho}" 
+echo -e "\nMaior: $nomeMaior \t$maior" 
