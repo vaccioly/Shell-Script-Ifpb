@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#cat in.txt | grep -E "([a-Z][0-9]){1,}" --color
+
+
+#cat in.txt | grep -Eo "\b([a-z0-9._%+-]){1,}+@[a-z0-9]+\.[a-Z]{2,6}\b" --color
+
+cat in.txt | grep -E '^([a-zA-Z0-9_-.])+@[0-9a-zA-Z.-]+\.[a-z]{2,3}$' --color
