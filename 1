@@ -1,0 +1,21 @@
+#!/bin/bash
+#cat emails.txt | cut -d'@' -f1 
+
+#declare -A email
+#while read linha; do
+#	[ email=$(cat emails.txt | cut -d'@' -f1 ) ] 
+#done < emails.txt
+#echo ${email[@]}
+
+
+# Resposta do professor
+
+#declare -A P
+
+#for nome in $( cat mail.txt | cut -d'@' -f1); do
+#	P[$nome]=1
+#done
+#echo ${!P[*]}
+
+#segunda resposta
+cut -d'@' -f1 < mail.txt | sort | uniq
