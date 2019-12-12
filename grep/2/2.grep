@@ -1,4 +1,0 @@
-#!/bin/bash
-#2 - Escreva uma express�o regular para remover todas as linhas de um arquivo que possuirem algum caractere especial, isto �, algum caractere que n�o seja espa�o, letras ou n�meros.
-
-cat arquivo.txt | grep -E "[^$]" | grep -Ev "[^ ][^a-Z][^0-9]"

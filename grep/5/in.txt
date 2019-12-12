@@ -1,6 +1,0 @@
-Escreva um expressão regular para reconhecer números de telefone. Note que vário formatos são válidos:
- (83) 9999 2532
- 83999992532
-+55 (83) 99999 2532
-9 9999 2532
- 9 99 99 25 32 ...

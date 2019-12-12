@@ -1,5 +1,0 @@
-#!/bin/bash
-
-#1 - Escreva uma express�o regular para filtrar um arquivo, exibindo apenas as linhas que terminam com ".txt" (sem aspas, claro).
-
-ls | grep -E "[\.][t][x][t]$"

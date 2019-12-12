@@ -1,7 +1,0 @@
-#!/bin/bash
-#cd temp/grep/5/
-
-if grep -oE "([0-9]){11}|?([+]([0-9])){2}?[ ][(]([0-9]){2}[)]?[ ]([0-9 ]){,10}|([0-9]{1,2}){,5}" in.txt; then
-
-  echo Telefone válido encontrado
-fi

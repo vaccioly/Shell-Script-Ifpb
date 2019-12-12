@@ -1,5 +1,0 @@
-4 - Escreva um expressão regular para validar endereços web coisas do tipo: 
-https://www.gmail.com ou 
-apenas 
-amazon.com.br ou ainda 
-github.io
